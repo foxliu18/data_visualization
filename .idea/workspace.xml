@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cf03e71f-2bb5-444a-9a15-8dfda1c0a08c" name="Default Changelist" comment="" />
+    <list default="true" id="cf03e71f-2bb5-444a-9a15-8dfda1c0a08c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,6 +13,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_dirty_tabread.coverage" NAME="ch02-dirty-tabread Coverage Results" MODIFIED="1545140108760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_stream_read_1.coverage" NAME="ch02-stream-read-1 Coverage Results" MODIFIED="1544974079753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$matplotlib_conf.coverage" NAME="matplotlib_conf Coverage Results" MODIFIED="1544344405040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_csv_writer.coverage" NAME="ch02_csv_writer Coverage Results" MODIFIED="1544970408301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
@@ -51,14 +56,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02/ch02-tabread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+            <state relative-caret-position="288">
+              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
               <folding>
                 <element signature="e#172#182#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
@@ -91,6 +105,9 @@
       <find>162440</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -101,6 +118,7 @@
         <option value="$PROJECT_DIR$/chapter02/ch02-xlsxread.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02-stream-read-1.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02-tabread.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py" />
       </list>
     </option>
   </component>
@@ -108,6 +126,9 @@
     <option name="x" value="4" />
     <option name="width" value="1370" />
     <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -120,6 +141,11 @@
             <path>
               <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,8 +187,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch02-tabread">
-    <configuration name="2.2.2.Import_Data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ch02-dirty-tabread">
+    <configuration name="ch02-dirty-tabread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -175,7 +201,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch0.2_csvreader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,11 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch02-dirty-tabread" />
         <item itemvalue="Python.ch02-tabread" />
         <item itemvalue="Python.ch02-stream-read-1" />
         <item itemvalue="Python.ch02-xlsxread" />
         <item itemvalue="Python.ch02_csv_writer" />
-        <item itemvalue="Python.2.2.2.Import_Data" />
       </list>
     </recent_temporary>
   </component>
@@ -297,22 +323,22 @@
       <workItem from="1544411945145" duration="908000" />
       <workItem from="1544969515924" duration="5773000" />
       <workItem from="1545010364407" duration="2401000" />
-      <workItem from="1545137373352" duration="103000" />
+      <workItem from="1545137373352" duration="1446000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15778000" />
+    <option name="totallyTimeSpent" value="17121000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287879" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.51060605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25151515" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7030303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,11 +467,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch02-tabread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        <state relative-caret-position="288">
+          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
           <folding>
             <element signature="e#172#182#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
