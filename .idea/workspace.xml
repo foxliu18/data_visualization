@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf03e71f-2bb5-444a-9a15-8dfda1c0a08c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02_write_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
+    <ignored path="env/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +14,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_dirty_tabread.coverage" NAME="ch02-dirty-tabread Coverage Results" MODIFIED="1545140108760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_write_data.coverage" NAME="ch02_write_data Coverage Results" MODIFIED="1545191100521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_stream_read_1.coverage" NAME="ch02-stream-read-1 Coverage Results" MODIFIED="1544974079753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$matplotlib_conf.coverage" NAME="matplotlib_conf Coverage Results" MODIFIED="1544344405040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_csv_writer.coverage" NAME="ch02_csv_writer Coverage Results" MODIFIED="1544970408301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
@@ -23,56 +24,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02_csv_writer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02-xlsxread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#11#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02-stream-read-1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-              <folding>
-                <element signature="e#178#191#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02-tabread.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-              <folding>
-                <element signature="e#172#182#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py">
+        <entry file="file://$PROJECT_DIR$/chapter02/ch02_write_data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="-671">
+              <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+              <folding>
+                <element signature="e#173#182#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/xlwt/Workbook.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-495">
+              <caret line="343" column="8" selection-start-line="343" selection-start-column="8" selection-end-line="343" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -119,6 +87,7 @@
         <option value="$PROJECT_DIR$/chapter02/ch02-stream-read-1.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02-tabread.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_write_data.py" />
       </list>
     </option>
   </component>
@@ -146,6 +115,12 @@
               <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
               <item name="chapter02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -187,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch02-dirty-tabread">
+  <component name="RunManager" selected="Python.ch02_write_data">
     <configuration name="ch02-dirty-tabread" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -276,7 +251,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch02_csv_writer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch02_write_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,7 +264,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_csv_writer.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_write_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -300,11 +275,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch02_write_data" />
         <item itemvalue="Python.ch02-dirty-tabread" />
         <item itemvalue="Python.ch02-tabread" />
         <item itemvalue="Python.ch02-stream-read-1" />
         <item itemvalue="Python.ch02-xlsxread" />
-        <item itemvalue="Python.ch02_csv_writer" />
       </list>
     </recent_temporary>
   </component>
@@ -323,22 +298,32 @@
       <workItem from="1544411945145" duration="908000" />
       <workItem from="1544969515924" duration="5773000" />
       <workItem from="1545010364407" duration="2401000" />
-      <workItem from="1545137373352" duration="1446000" />
+      <workItem from="1545137373352" duration="7908000" />
+      <workItem from="1545189905571" duration="3401000" />
     </task>
+    <task id="LOCAL-00001" summary="dirty read">
+      <created>1545140201324</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1545140201324</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17121000" />
+    <option name="totallyTimeSpent" value="26984000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287879" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25151515" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29848486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7030303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -347,7 +332,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.51969695" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43030304" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.6484848" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -358,6 +343,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="dirty read" />
+    <option name="LAST_COMMIT_MESSAGE" value="dirty read" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -405,10 +394,10 @@
     <entry file="file://$PROJECT_DIR$/chapter02/ch02-data-write.csv" />
     <entry file="file://$PROJECT_DIR$/chapter02/ch02-data.csv" />
     <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data-write.csv">
-      <provider selected="true" editor-type-id="csv-text-editor" />
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" rowLines="3" />
       </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/xlrd/sheet.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -417,15 +406,15 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data.tab">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data">
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="97">
           <caret line="40605" column="28" lean-forward="true" selection-start-line="40605" selection-start-column="28" selection-end-line="40605" selection-end-column="28" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data.tab">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch02_csv_writer.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -454,6 +443,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02-tabread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
+          <folding>
+            <element signature="e#172#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch0.2_csvreader.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
@@ -465,20 +471,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/ch02-tabread.py">
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/998767216/_struct.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="27" column="24" lean-forward="true" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-          <folding>
-            <element signature="e#172#182#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="297">
+          <caret line="181" column="66" selection-start-line="181" selection-start-column="66" selection-end-line="181" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py">
+    <entry file="file:///usr/lib/python3.7/json/encoder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        <state relative-caret-position="85">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/xlwt/Workbook.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-495">
+          <caret line="343" column="8" selection-start-line="343" selection-start-column="8" selection-end-line="343" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_write_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-671">
+          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+          <folding>
+            <element signature="e#173#182#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
