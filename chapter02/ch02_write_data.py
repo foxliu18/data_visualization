@@ -9,6 +9,7 @@ import os
 import sys
 import argparse
 from io import StringIO
+import numpy as np
 import struct
 import json
 import csv
@@ -69,14 +70,26 @@ def write_csv(data):
     return f.getvalue()
 
 
+class MyEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        elif isinstance(obj, bytes):
+            return str(obj, encoding='utf-8')
+        return json.JSONEncoder.default(self, obj)
+
+
 def write_json(data):
     """
     Transforms data into json. Very straightforward.
     :param data:
     :return:
     """
-    j = json.dumps(data)
-    return j
+    try:
+        j = json.dumps(data, cls=MyEncoder)
+        return j
+    except Exception as e:
+        return e.args[0]
 
 
 def write_xlsx(data):
@@ -92,8 +105,18 @@ def write_xlsx(data):
     for line in data:
         col = 0
         for datum in line:
-            print(datum)
-            sheet1.write(row, col, datum)
+            # print(datum)
+            try:
+                newdatum = []
+                for i in datum:
+                    print(i)
+                    newdatum.append(str(i))
+                sheet1.write(row, col, newdatum)
+            except Exception as e:
+                print(newdatum)
+                print(len(newdatum))
+                print(e.args[0])
+                return None
             col += 1
         row += 1
         if row > 100:
@@ -101,7 +124,6 @@ def write_xlsx(data):
     # XLS is special case where we have to
     # save the file and just return 0
     f = StringIO()
-    book.save(f)
     return f.getvalue()
 
 

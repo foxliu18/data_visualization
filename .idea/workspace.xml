@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf03e71f-2bb5-444a-9a15-8dfda1c0a08c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02_write_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02_clean_boxplot.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02_clean_mad.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02_imshow_lena.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02_median_filter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02_random_noise.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/data/ch02-data_more.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter02/data/stinkbug.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter02/ch02_write_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/ch02_write_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data" afterDir="false" />
     </list>
     <ignored path="env/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,45 +24,41 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_dirty_tabread.coverage" NAME="ch02-dirty-tabread Coverage Results" MODIFIED="1545140108760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
-    <SUITE FILE_PATH="coverage/DataVisualization$ch02_write_data.coverage" NAME="ch02_write_data Coverage Results" MODIFIED="1545191100521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
-    <SUITE FILE_PATH="coverage/DataVisualization$ch02_stream_read_1.coverage" NAME="ch02-stream-read-1 Coverage Results" MODIFIED="1544974079753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$matplotlib_conf.coverage" NAME="matplotlib_conf Coverage Results" MODIFIED="1544344405040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_median_filter.coverage" NAME="ch02_median_filter Coverage Results" MODIFIED="1545556492886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_xlsxread.coverage" NAME="ch02-xlsxread Coverage Results" MODIFIED="1544972382609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_clean_mad.coverage" NAME="ch02_clean_mad Coverage Results" MODIFIED="1545536321212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_write_data.coverage" NAME="ch02_write_data Coverage Results" MODIFIED="1545191100521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_random_noise.coverage" NAME="ch02_random_noise Coverage Results" MODIFIED="1545553189255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_clean_boxplot.coverage" NAME="ch02_clean_boxplot Coverage Results" MODIFIED="1545538827525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_stream_read_1.coverage" NAME="ch02-stream-read-1 Coverage Results" MODIFIED="1544974079753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_scipy_smooth.coverage" NAME="ch02_scipy_smooth Coverage Results" MODIFIED="1545555461890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_csv_writer.coverage" NAME="ch02_csv_writer Coverage Results" MODIFIED="1544970408301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_imshow_lena.coverage" NAME="ch02_imshow_lena Coverage Results" MODIFIED="1545540953363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$2_2_2_Import_Data.coverage" NAME="2.2.2.Import_Data Coverage Results" MODIFIED="1544970403213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_tabread.coverage" NAME="ch02-tabread Coverage Results" MODIFIED="1544974960533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
-    <SUITE FILE_PATH="coverage/DataVisualization$ch02_xlsxread.coverage" NAME="ch02-xlsxread Coverage Results" MODIFIED="1544972382609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02_write_data.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-671">
-              <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+            <state relative-caret-position="-1113">
+              <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
               <folding>
-                <element signature="e#173#182#0" expanded="true" />
+                <element signature="e#175#187#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/xlwt/Workbook.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter02/ch02_median_filter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-495">
-              <caret line="343" column="8" selection-start-line="343" selection-start-column="8" selection-end-line="343" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch0.2_csvreader.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="195">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="n#!!doc" />
-                <element signature="e#153#163#0" expanded="true" />
+                <element signature="e#176#194#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -87,7 +93,16 @@
         <option value="$PROJECT_DIR$/chapter02/ch02-stream-read-1.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02-tabread.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py" />
+        <option value="$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data" />
         <option value="$PROJECT_DIR$/chapter02/ch02_write_data.py" />
+        <option value="$PROJECT_DIR$/chapter02/data/ch02-data.csv" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_clean_mad.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_clean_boxplot.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_chunk_read.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_imshow_lena.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_random_noise.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_median_filter.py" />
       </list>
     </option>
   </component>
@@ -104,6 +119,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -111,22 +127,10 @@
               <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
-              <item name="chapter02" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,11 +147,12 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter02/data" />
+      <recent name="$PROJECT_DIR$/chapter02" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/chapter02/data" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/chapter02" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -162,8 +167,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch02_write_data">
-    <configuration name="ch02-dirty-tabread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ch02_median_filter">
+    <configuration name="ch02_clean_boxplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -176,7 +181,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02-dirty-tabread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_clean_boxplot.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -185,7 +190,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch02-stream-read-1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch02_imshow_lena" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -198,7 +203,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02-stream-read-1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_imshow_lena.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -207,7 +212,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch02-tabread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch02_median_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -220,7 +225,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02-tabread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_median_filter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +234,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch02-xlsxread" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch02_random_noise" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -242,7 +247,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02-xlsxread.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_random_noise.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +256,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ch02_write_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ch02_scipy_smooth" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,7 +269,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_write_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -275,11 +280,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ch02_write_data" />
-        <item itemvalue="Python.ch02-dirty-tabread" />
-        <item itemvalue="Python.ch02-tabread" />
-        <item itemvalue="Python.ch02-stream-read-1" />
-        <item itemvalue="Python.ch02-xlsxread" />
+        <item itemvalue="Python.ch02_median_filter" />
+        <item itemvalue="Python.ch02_scipy_smooth" />
+        <item itemvalue="Python.ch02_random_noise" />
+        <item itemvalue="Python.ch02_imshow_lena" />
+        <item itemvalue="Python.ch02_clean_boxplot" />
       </list>
     </recent_temporary>
   </component>
@@ -299,7 +304,11 @@
       <workItem from="1544969515924" duration="5773000" />
       <workItem from="1545010364407" duration="2401000" />
       <workItem from="1545137373352" duration="7908000" />
-      <workItem from="1545189905571" duration="3401000" />
+      <workItem from="1545189905571" duration="7668000" />
+      <workItem from="1545283187361" duration="1660000" />
+      <workItem from="1545398603668" duration="2218000" />
+      <workItem from="1545493820068" duration="8302000" />
+      <workItem from="1545536160096" duration="11990000" />
     </task>
     <task id="LOCAL-00001" summary="dirty read">
       <created>1545140201324</created>
@@ -308,22 +317,28 @@
       <option name="project" value="LOCAL" />
       <updated>1545140201324</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="data write add">
+      <created>1545199848331</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1545199848331</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26984000" />
+    <option name="totallyTimeSpent" value="55421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287879" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29848486" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34242424" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7030303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,12 +347,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.43030304" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.6484848" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2560606" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.6545454" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="275" y="116" width="799" height="569" id="SciView" order="3" weight="0.329429" />
+      <window_info anchor="right" x="81" y="43" width="1221" height="645" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.329429" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -346,7 +361,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dirty read" />
-    <option name="LAST_COMMIT_MESSAGE" value="dirty read" />
+    <MESSAGE value="data write add" />
+    <option name="LAST_COMMIT_MESSAGE" value="data write add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -393,12 +409,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch02-data-write.csv" />
     <entry file="file://$PROJECT_DIR$/chapter02/ch02-data.csv" />
-    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data-write.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/xlrd/sheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
@@ -408,13 +418,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data.tab">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data">
-      <provider selected="true" editor-type-id="LargeFileEditor">
-        <state relative-caret-position="97">
-          <caret line="40605" column="28" lean-forward="true" selection-start-line="40605" selection-start-column="28" selection-end-line="40605" selection-end-column="28" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch02_csv_writer.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -460,17 +463,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/ch0.2_csvreader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="n#!!doc" />
-            <element signature="e#153#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/998767216/_struct.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -492,12 +484,149 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data-write.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/xlwt/Row.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-58">
+          <caret line="228" selection-start-line="228" selection-end-line="228" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.3/system/python_stubs/998767216/_ssl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="236" column="8" selection-start-line="236" selection-start-column="8" selection-end-line="236" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.7/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="182" column="51" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data">
+      <provider editor-type-id="LargeFileEditor">
+        <state relative-caret-position="97">
+          <caret line="40605" column="28" lean-forward="true" selection-start-line="40605" selection-start-column="28" selection-end-line="40605" selection-end-column="28" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="841131">
+          <caret line="31153" selection-start-line="31153" selection-end-line="31153" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/data/ch02-data_more.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch02_write_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-671">
-          <caret line="94" column="16" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+        <state relative-caret-position="3699">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
           <folding>
             <element signature="e#173#182#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch0.2_csvreader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="n#!!doc" />
+            <element signature="e#153#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_clean_mad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="52" column="20" lean-forward="true" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="e#172#190#0" expanded="true" />
+            <element signature="e#266#1041#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_chunk_read.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_clean_boxplot.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="38" column="31" lean-forward="true" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/scipy/misc/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2796" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_imshow_lena.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+          <folding>
+            <element signature="e#174#186#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_random_noise.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2500">
+          <caret line="127" column="13" selection-start-line="127" selection-start-column="13" selection-end-line="127" selection-end-column="13" />
+          <folding>
+            <element signature="e#175#187#0" expanded="true" />
+            <element signature="e#234#694#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1113">
+          <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+          <folding>
+            <element signature="e#175#187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_median_filter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#176#194#0" expanded="true" />
           </folding>
         </state>
       </provider>
