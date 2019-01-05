@@ -73,7 +73,7 @@ subplot(211)
 plot(ones(ws))
 
 # draw on the same axes
-hold(True)
+# ishold(True)
 
 # plot for every windows
 for w in WINDOWS[1:]:

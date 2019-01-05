@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf03e71f-2bb5-444a-9a15-8dfda1c0a08c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02_clean_boxplot.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02_clean_mad.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02_imshow_lena.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02_median_filter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02_random_noise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/data/ch02-data_more.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter02/data/stinkbug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/ch03_figure_setting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/ch03_sin_cos_charts.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/ch02_write_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/ch02_write_data.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/data/ch02-fixed-width-1M.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" afterDir="false" />
     </list>
     <ignored path="env/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,20 +23,22 @@
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_write_data.coverage" NAME="ch02_write_data Coverage Results" MODIFIED="1545191100521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_random_noise.coverage" NAME="ch02_random_noise Coverage Results" MODIFIED="1545553189255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_clean_boxplot.coverage" NAME="ch02_clean_boxplot Coverage Results" MODIFIED="1545538827525" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch03_figure_setting.coverage" NAME="ch03_figure_setting Coverage Results" MODIFIED="1545559204444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_stream_read_1.coverage" NAME="ch02-stream-read-1 Coverage Results" MODIFIED="1544974079753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
-    <SUITE FILE_PATH="coverage/DataVisualization$ch02_scipy_smooth.coverage" NAME="ch02_scipy_smooth Coverage Results" MODIFIED="1545555461890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch02_scipy_smooth.coverage" NAME="ch02_scipy_smooth Coverage Results" MODIFIED="1545558372449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_csv_writer.coverage" NAME="ch02_csv_writer Coverage Results" MODIFIED="1544970408301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_imshow_lena.coverage" NAME="ch02_imshow_lena Coverage Results" MODIFIED="1545540953363" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$2_2_2_Import_Data.coverage" NAME="2.2.2.Import_Data Coverage Results" MODIFIED="1544970403213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_tabread.coverage" NAME="ch02-tabread Coverage Results" MODIFIED="1544974960533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch03_sin_cos_charts.coverage" NAME="ch03_sin_cos_charts Coverage Results" MODIFIED="1546662564318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1113">
-              <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+            <state relative-caret-position="1863">
+              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
               <folding>
                 <element signature="e#175#187#0" expanded="true" />
               </folding>
@@ -53,12 +47,21 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02_median_filter.py">
+        <entry file="file://$PROJECT_DIR$/chapter03/ch03_figure_setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+            <state relative-caret-position="-262">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/ch03_sin_cos_charts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-405">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
-                <element signature="e#176#194#0" expanded="true" />
+                <element signature="e#177#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,8 +104,11 @@
         <option value="$PROJECT_DIR$/chapter02/ch02_chunk_read.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02_imshow_lena.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02_random_noise.py" />
-        <option value="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" />
         <option value="$PROJECT_DIR$/chapter02/ch02_median_filter.py" />
+        <option value="$PROJECT_DIR$/chapter03/__init__.py" />
+        <option value="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" />
+        <option value="$PROJECT_DIR$/chapter03/ch03_figure_setting.py" />
+        <option value="$PROJECT_DIR$/chapter03/ch03_sin_cos_charts.py" />
       </list>
     </option>
   </component>
@@ -119,7 +125,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -127,17 +132,24 @@
               <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
               <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="DataVisualization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DataVisualization" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter03" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../webSpider" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -167,51 +179,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch02_median_filter">
-    <configuration name="ch02_clean_boxplot" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataVisualization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_clean_boxplot.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch02_imshow_lena" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataVisualization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_imshow_lena.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.ch03_sin_cos_charts">
     <configuration name="ch02_median_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -278,13 +246,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ch03_figure_setting" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/ch03_figure_setting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch03_sin_cos_charts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/ch03_sin_cos_charts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.ch02_median_filter" />
+        <item itemvalue="Python.ch03_sin_cos_charts" />
+        <item itemvalue="Python.ch03_figure_setting" />
         <item itemvalue="Python.ch02_scipy_smooth" />
+        <item itemvalue="Python.ch02_median_filter" />
         <item itemvalue="Python.ch02_random_noise" />
-        <item itemvalue="Python.ch02_imshow_lena" />
-        <item itemvalue="Python.ch02_clean_boxplot" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +320,8 @@
       <workItem from="1545283187361" duration="1660000" />
       <workItem from="1545398603668" duration="2218000" />
       <workItem from="1545493820068" duration="8302000" />
-      <workItem from="1545536160096" duration="11990000" />
+      <workItem from="1545536160096" duration="15823000" />
+      <workItem from="1546662536732" duration="262000" />
     </task>
     <task id="LOCAL-00001" summary="dirty read">
       <created>1545140201324</created>
@@ -324,14 +337,22 @@
       <option name="project" value="LOCAL" />
       <updated>1545199848331</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ch03 add">
+      <created>1545557532132</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1545557532132</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55421000" />
+    <option name="totallyTimeSpent" value="59516000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -352,7 +373,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="81" y="43" width="1221" height="645" id="SciView" order="3" show_stripe_button="false" type="FLOATING" weight="0.329429" />
+      <window_info anchor="right" x="76" y="54" width="1231" height="639" id="SciView" order="3" type="WINDOWED" weight="0.329429" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -362,7 +383,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dirty read" />
     <MESSAGE value="data write add" />
-    <option name="LAST_COMMIT_MESSAGE" value="data write add" />
+    <MESSAGE value="ch03 add" />
+    <option name="LAST_COMMIT_MESSAGE" value="ch03 add" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -571,13 +593,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chapter02/ch02_chunk_read.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter02/ch02_chunk_read.py" />
     <entry file="file://$PROJECT_DIR$/chapter02/ch02_clean_boxplot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
@@ -613,8 +629,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1113">
-          <caret line="58" column="59" lean-forward="true" selection-start-line="58" selection-start-column="59" selection-end-line="58" selection-end-column="59" />
+        <state relative-caret-position="1863">
+          <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
           <folding>
             <element signature="e#175#187#0" expanded="true" />
           </folding>
@@ -623,11 +639,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter02/ch02_median_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        <state relative-caret-position="621">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
           <folding>
             <element signature="e#176#194#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/ch03_sin_cos_charts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-405">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="e#177#196#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/ch03_figure_setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
         </state>
       </provider>
     </entry>
