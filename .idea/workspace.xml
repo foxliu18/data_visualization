@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf03e71f-2bb5-444a-9a15-8dfda1c0a08c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter03/ch03_figure_setting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter03/ch03_sin_cos_charts.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/ch03_axis_scale.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter03/ch03_legend_annotate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" afterDir="false" />
     </list>
     <ignored path="env/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,11 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_dirty_tabread.coverage" NAME="ch02-dirty-tabread Coverage Results" MODIFIED="1545140108760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch03_move_axis_center.coverage" NAME="ch03_move_axis_center Coverage Results" MODIFIED="1546670220783" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
     <SUITE FILE_PATH="coverage/DataVisualization$matplotlib_conf.coverage" NAME="matplotlib_conf Coverage Results" MODIFIED="1544344405040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter01" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_median_filter.coverage" NAME="ch02_median_filter Coverage Results" MODIFIED="1545556492886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch03_legend_annotate.coverage" NAME="ch03_legend_annotate Coverage Results" MODIFIED="1546667788636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
+    <SUITE FILE_PATH="coverage/DataVisualization$ch03_axis_scale.coverage" NAME="ch03_axis_scale Coverage Results" MODIFIED="1546665623684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter03" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_xlsxread.coverage" NAME="ch02-xlsxread Coverage Results" MODIFIED="1544972382609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_clean_mad.coverage" NAME="ch02_clean_mad Coverage Results" MODIFIED="1545536321212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
     <SUITE FILE_PATH="coverage/DataVisualization$ch02_write_data.coverage" NAME="ch02_write_data Coverage Results" MODIFIED="1545191100521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/chapter02" />
@@ -35,22 +37,43 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py">
+        <entry file="file://$PROJECT_DIR$/chapter03/ch03_figure_setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1863">
-              <caret line="71" column="12" selection-start-line="71" selection-start-column="12" selection-end-line="71" selection-end-column="12" />
+            <state relative-caret-position="1080">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/ch03_axis_scale.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="558">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
               <folding>
-                <element signature="e#175#187#0" expanded="true" />
+                <element signature="e#173#192#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter03/ch03_figure_setting.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter03/ch03_legend_annotate.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-262">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="393">
+              <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter03/ch03_move_axis_center.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#179#210#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,6 +132,9 @@
         <option value="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" />
         <option value="$PROJECT_DIR$/chapter03/ch03_figure_setting.py" />
         <option value="$PROJECT_DIR$/chapter03/ch03_sin_cos_charts.py" />
+        <option value="$PROJECT_DIR$/chapter03/ch03_axis_scale.py" />
+        <option value="$PROJECT_DIR$/chapter03/ch03_legend_annotate.py" />
+        <option value="$PROJECT_DIR$/chapter03/ch03_move_axis_center.py" />
       </list>
     </option>
   </component>
@@ -179,8 +205,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.ch03_sin_cos_charts">
-    <configuration name="ch02_median_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ch03_move_axis_center">
+    <configuration name="ch03_axis_scale" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataVisualization" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -188,56 +214,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_median_filter.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch02_random_noise" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataVisualization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_random_noise.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ch02_scipy_smooth" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataVisualization" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter02" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter02/ch02_scipy_smooth.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/ch03_axis_scale.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -260,6 +242,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/ch03_figure_setting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch03_legend_annotate" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/ch03_legend_annotate.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch03_move_axis_center" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataVisualization" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter03" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter03/ch03_move_axis_center.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -292,11 +318,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ch03_move_axis_center" />
+        <item itemvalue="Python.ch03_legend_annotate" />
+        <item itemvalue="Python.ch03_axis_scale" />
         <item itemvalue="Python.ch03_sin_cos_charts" />
         <item itemvalue="Python.ch03_figure_setting" />
-        <item itemvalue="Python.ch02_scipy_smooth" />
-        <item itemvalue="Python.ch02_median_filter" />
-        <item itemvalue="Python.ch02_random_noise" />
       </list>
     </recent_temporary>
   </component>
@@ -321,7 +347,7 @@
       <workItem from="1545398603668" duration="2218000" />
       <workItem from="1545493820068" duration="8302000" />
       <workItem from="1545536160096" duration="15823000" />
-      <workItem from="1546662536732" duration="262000" />
+      <workItem from="1546662536732" duration="7518000" />
     </task>
     <task id="LOCAL-00001" summary="dirty read">
       <created>1545140201324</created>
@@ -344,22 +370,28 @@
       <option name="project" value="LOCAL" />
       <updated>1545557532132</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ch03 add">
+      <created>1546662808136</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1546662808137</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59516000" />
+    <option name="totallyTimeSpent" value="66772000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2057101" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3287879" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34242424" />
+      <window_info anchor="bottom" auto_hide="true" id="Run" order="2" weight="0.34242424" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.7030303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -373,7 +405,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" x="76" y="54" width="1231" height="639" id="SciView" order="3" type="WINDOWED" weight="0.329429" />
+      <window_info anchor="right" x="0" y="149" width="1366" height="525" id="SciView" order="3" type="WINDOWED" weight="0.329429" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -666,8 +698,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter03/ch03_figure_setting.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-262">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="1080">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/lib/python3.7/site-packages/matplotlib/axes/_axes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1619" column="8" selection-start-line="1619" selection-start-column="8" selection-end-line="1619" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/ch03_axis_scale.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="e#173#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/ch03_legend_annotate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter03/ch03_move_axis_center.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#179#210#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
