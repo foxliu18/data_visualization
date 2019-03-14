@@ -1,4 +1,3 @@
-#! /usr/bin/python3
 # -*- coding: utf-8 -*-
 # @Time    :  12:49 PM
 # @Author  : lkx-rog
