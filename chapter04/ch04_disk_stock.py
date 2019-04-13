@@ -14,7 +14,7 @@ import numpy as np
 
 def build_folders(start_path):
     folders = []
-    for each in get_directorues(start_path):
+    for each in get_directories(start_path):
         size = get_size(each)
         if size >= 25*1024*1024:
             folders.append({'size':size, 'path':each})
