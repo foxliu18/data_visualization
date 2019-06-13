@@ -1,4 +1,4 @@
-#! /usr/bin/python3
+#! /usr/bin/python
 # -*- coding: utf-8 -*-
 # @Time    : 23.12.18 17:47
 # @Author  : liu
